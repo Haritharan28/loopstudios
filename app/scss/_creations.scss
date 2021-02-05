@@ -1,0 +1,63 @@
+.creations {
+  margin-top: 10.5625rem;
+
+  &__our {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+
+    @include breakpoint-down(large) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    h2 {
+      font-family: "Josefin Sans", sans-serif;
+      font-size: 2.125rem;
+      text-transform: uppercase;
+      color: $Black;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+
+    h4 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      text-transform: uppercase;
+      border: 1px solid $Black;
+      padding: 0.5rem 2rem;
+      font-family: "Josefin Sans", sans-serif;
+      font-size: 0.5rem;
+      font-weight: 300;
+      letter-spacing: 0.3rem;
+    }
+  }
+
+  .galary {
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img-1 {
+    position: relative;
+    padding: 0.5rem;
+  }
+  h5 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.8rem;
+    color: $White;
+    position: absolute;
+    bottom: 8%;
+    left: 8%;
+    line-height: 1;
+  }
+}
